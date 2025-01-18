@@ -1,9 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARM.CLI", "ARM.CLI\ARM.CLI.csproj", "{183C0868-B8C7-481A-B59F-C8DC19A07937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sensor.CLI", "Sensor.CLI\Sensor.CLI.csproj", "{98850A98-2199-4B11-89DC-42CB30BAB201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoT.EGT.FA", "IoT.EGT.FA\IoT.EGT.FA.csproj", "{07E3DC2A-1851-4718-970B-99A4E3E9BBE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADT.EGT.FA", "ADT.EGT.FA\ADT.EGT.FA.csproj", "{78C546A8-49FD-428D-AC4C-6D3F469C9BB2}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{183C0868-B8C7-481A-B59F-C8DC19A07937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183C0868-B8C7-481A-B59F-C8DC19A07937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183C0868-B8C7-481A-B59F-C8DC19A07937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183C0868-B8C7-481A-B59F-C8DC19A07937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98850A98-2199-4B11-89DC-42CB30BAB201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98850A98-2199-4B11-89DC-42CB30BAB201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98850A98-2199-4B11-89DC-42CB30BAB201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98850A98-2199-4B11-89DC-42CB30BAB201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E3DC2A-1851-4718-970B-99A4E3E9BBE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E3DC2A-1851-4718-970B-99A4E3E9BBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E3DC2A-1851-4718-970B-99A4E3E9BBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E3DC2A-1851-4718-970B-99A4E3E9BBE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C546A8-49FD-428D-AC4C-6D3F469C9BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C546A8-49FD-428D-AC4C-6D3F469C9BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C546A8-49FD-428D-AC4C-6D3F469C9BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C546A8-49FD-428D-AC4C-6D3F469C9BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

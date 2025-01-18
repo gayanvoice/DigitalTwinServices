@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ADT.EGT.FA": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7140",
+      "launchBrowser": false
+    }
+  }
+}
